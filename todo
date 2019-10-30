@@ -1,0 +1,69 @@
+настраиваемая плагиновая структура
+типа api_doc_plugin.py
+if settings.api_doc:
+  installed_apps += ...
+
+auth
+    sms
+    email
+    social
+    djoser
+
+inner:
+    scheduler
+        django-q
+        django-rq
+    storages?
+    sentry
+    web push?
+    mobile push?
+    django-environ
+
+
+admin:
+    ui
+        suit
+        jet
+графики
+    grafana + postgres
+    grafana + prometheus
+silk
+
+doc:
+    openapi
+    drf-yasg
+    ебланит с параметрами для чтения и записи
+    стандартный drf
+    без гуя, моделей и чего-то еще
+    sphinx + rtd тема
+
+ops:
+    nginx + метрики
+    nginx unit
+    docker
+    traefik 2
+    sentry
+    seq + logspout + gelf
+    dockprom
+    gitlab ci/cd
+    cloud
+    cdn?
+    serverless
+
+---
+
+sphinx
+admin autocomplete filter
+почта, смс
+восстановление / смена пароля
+разбиение настроек
+флаги
+починить автодоку реста (git?)
+sentry
+django-q
+admin jet
+silk
+django-environ
+
+дока
+шаблон cookiecutter
