@@ -3,8 +3,8 @@ FROM python:3.7-slim
 ENV PYTHONUNBUFFERED 1
 
 RUN pip install poetry \
-  && apt update \
-  && apt install -y git
+  && apt-get update \
+  && apt-get install -y git
 
 WORKDIR /app
 COPY pyproject.toml .
@@ -12,7 +12,7 @@ COPY pyproject.toml .
 
 RUN poetry conf settings.virtualenvs.create false \
   && poetry install \
-  && apt autoremove -y git \
+  && apt-get autoremove -y git \
   && rm -rf ~/.cache/pypoetry/cache/repositories/pypi/* \
   && rm -rf ~/.cache/pip \
   && rm -rf /var/lib/apt/lists/*
