@@ -144,7 +144,10 @@ description = "Web APIs for Django, made easy."
 name = "djangorestframework"
 optional = false
 python-versions = ">=3.5"
-version = "3.10.3"
+version = "3.11.0"
+
+[package.dependencies]
+django = ">=1.11"
 
 [[package]]
 category = "main"
@@ -371,7 +374,7 @@ django-loginas = ["bd72331883954836e0e78df63e4e49e928c284d0f889f40cd227f892b1d26
 django-picklefield = ["9052f2dcf4882c683ce87b4356f29b4d014c0dad645b6906baf9f09571f52bc8", "f1733a8db1b6046c0d7d738e785f9875aa3c198215de11993463a9339aa4ea24"]
 django-reversion = ["1aeed0b723b5be14c4dc7e7c7e03f9538e7ef29c997585e2e8fb414cf38818f4", "ed46722389fb2441860d471c7538967dee545bcee891d3d907b04f4baa98f5fa"]
 django-split-settings = ["db4d24a2da2f17e0aa97437f052eda7d043a3e2eaa9c8a85a171271e0f91852b", "f5a5c6431ab00a78959f7930a79faaf488b2fe8a4eddc4297ef8cd593e74868d"]
-djangorestframework = ["5488aed8f8df5ec1d70f04b2114abc52ae6729748a176c453313834a9ee179c8", "dc81cbf9775c6898a580f6f1f387c4777d12bd87abf0f5406018d32ccae71090"]
+djangorestframework = ["05809fc66e1c997fd9a32ea5730d9f4ba28b109b9da71fccfa5ff241201fd0a4", "e782087823c47a26826ee5b6fa0c542968219263fb3976ec3c31edab23a4001f"]
 djangorestframework-serializer-extensions = ["c383f18bf38ee1277cc8cb738f4667b8b9b6bd9a2f98ca938f8ac8c703a68ae4", "f44c5592dfd1289af1bd6afb6ba9b2afe0881c5cd9c242e8e76f08a9fcab16cb"]
 djangorestframework-simplejwt = ["4cb1a51bf9b098b983e1326a1cfc65fb0b3c5a2aa0fa43effdbf05dd6da5e8cb", "d025211806622c53020aa4f66029f1f7305e38de6439116b4a842661fc02cf36"]
 hashids = ["6539b892a426e75747a9c0ad69409e9566f9c21b79310fc3424b5b6726f28da6"]
