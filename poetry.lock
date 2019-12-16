@@ -186,8 +186,8 @@ category = "dev"
 description = "IPython: Productive Interactive Computing"
 name = "ipython"
 optional = false
-python-versions = ">=3.5"
-version = "7.9.0"
+python-versions = ">=3.6"
+version = "7.10.2"
 
 [package.dependencies]
 appnope = "*"
@@ -197,7 +197,7 @@ decorator = "*"
 jedi = ">=0.10"
 pexpect = "*"
 pickleshare = "*"
-prompt-toolkit = ">=2.0.0,<2.1.0"
+prompt-toolkit = ">=2.0.0,<3.0.0 || >3.0.0,<3.0.1 || >3.0.1,<3.1.0"
 pygments = "*"
 setuptools = ">=18.5"
 traitlets = ">=4.2"
@@ -356,7 +356,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "0.15.6"
 
 [metadata]
-content-hash = "8ca53d8bd35e8d03261385d7d77bb9255549fb562479ca17fede5b009af8d9b7"
+content-hash = "668c69c5bccf7572cddac3c9e509d124f928e04c03ce380bb4beefa78f5a6c89"
 python-versions = "^3.7"
 
 [metadata.hashes]
@@ -378,7 +378,7 @@ djangorestframework = ["05809fc66e1c997fd9a32ea5730d9f4ba28b109b9da71fccfa5ff241
 djangorestframework-serializer-extensions = ["c383f18bf38ee1277cc8cb738f4667b8b9b6bd9a2f98ca938f8ac8c703a68ae4", "f44c5592dfd1289af1bd6afb6ba9b2afe0881c5cd9c242e8e76f08a9fcab16cb"]
 djangorestframework-simplejwt = ["4cb1a51bf9b098b983e1326a1cfc65fb0b3c5a2aa0fa43effdbf05dd6da5e8cb", "d025211806622c53020aa4f66029f1f7305e38de6439116b4a842661fc02cf36"]
 hashids = ["6539b892a426e75747a9c0ad69409e9566f9c21b79310fc3424b5b6726f28da6"]
-ipython = ["dfd303b270b7b5232b3d08bd30ec6fd685d8a58cabd54055e3d69d8f029f7280", "ed7ebe1cba899c1c3ccad6f7f1c2d2369464cc77dba8eebc65e2043e19cda995"]
+ipython = ["190a279bd3d4fc585a611e9358a88f1048cc57fd688254a86f9461889ee152a6", "762d79a62b6aa96b04971e920543f558dfbeedc0468b899303c080c8068d4ac2"]
 ipython-genutils = ["72dd37233799e619666c9f639a9da83c34013a73e8bbc79a7a6348d93c61fab8", "eb2e116e75ecef9d4d228fdc66af54269afa26ab4463042e33785b887c628ba8"]
 jedi = ["786b6c3d80e2f06fd77162a07fed81b8baa22dde5d62896a790a331d6ac21a27", "ba859c74fa3c966a22f2aeebe1b74ee27e2a462f56d3f5f7ca4a59af61bfe42e"]
 parso = ["63854233e1fadb5da97f2744b6b24346d2750b85965e7e399bec1620232797dc", "666b0ee4a7a1220f65d367617f2cd3ffddff3e205f3f16a0284df30e774c2a9c"]
