@@ -38,7 +38,7 @@ description = "A high-level Python Web framework that encourages rapid developme
 name = "django"
 optional = false
 python-versions = ">=3.5"
-version = "2.2.6"
+version = "2.2.8"
 
 [package.dependencies]
 pytz = "*"
@@ -364,7 +364,7 @@ appnope = ["5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0", "
 backcall = ["38ecd85be2c1e78f77fd91700c76e14667dc21e2713b63876c0eb901196e01e4", "bbbf4b1e5cd2bdb08f915895b51081c041bac22394fdfcfdfbe9f14b77c08bf2"]
 colorama = ["05eed71e2e327246ad6b38c540c4a3117230b19679b875190486ddd2d721422d", "f8ac84de7840f5b9c4e3347b3c1eaa50f7e49c2b07596221daec5edaabbd7c48"]
 decorator = ["86156361c50488b84a3f148056ea716ca587df2f0de1d34750d35c21312725de", "f069f3a01830ca754ba5258fde2278454a0b5b79e0d7f5c13b3b97e57d4acff6"]
-django = ["4025317ca01f75fc79250ff7262a06d8ba97cd4f82e93394b2a0a6a4a925caeb", "a8ca1033acac9f33995eb2209a6bf18a4681c3e5269a878e9a7e0b7384ed1ca3"]
+django = ["a4ad4f6f9c6a4b7af7e2deec8d0cbff28501852e5010d6c2dc695d3d1fae7ca0", "fa98ec9cc9bf5d72a08ebf3654a9452e761fbb8566e3f80de199cbc15477e891"]
 django-autocompletefilter = ["40d09a9a314f667deebddeb6ff4daa1601372a36d19234367153d9476b6446f5", "d7aeeca98b9cee58026a455b283eb990f6584b66361d0d4556417f4cf6f2f77e"]
 django-constance = ["19ff1ae8295aeffc2917ab67da4b310bfaf8c42f34d570f89e289fd54c4217b0", "417f9866a4fcd93c198acd16d5bc22b68e491eaabb18efea4c70d183d42daa45"]
 django-cors-headers = ["5762ec9c2d59f38c76828dc1d4308baca4bc0d3e1d6f217683e7a24a1c4611a3", "ee02f4b699e9b6645602a46d0adb430ee940a1bf8df64f77e516f8d7711fee60"]
