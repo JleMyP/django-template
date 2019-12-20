@@ -155,7 +155,7 @@ description = "Extensions to DRY up Django Rest Framework serializers"
 name = "djangorestframework-serializer-extensions"
 optional = false
 python-versions = "*"
-version = "1.0.0"
+version = "2.0.0"
 
 [package.dependencies]
 hashids = ">1.0.0"
@@ -356,7 +356,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "0.15.6"
 
 [metadata]
-content-hash = "668c69c5bccf7572cddac3c9e509d124f928e04c03ce380bb4beefa78f5a6c89"
+content-hash = "8731b95c5bff4d665e4edf1f8b8b24c6af726f657b68aec106af62ba441efbab"
 python-versions = "^3.7"
 
 [metadata.hashes]
@@ -375,7 +375,7 @@ django-picklefield = ["9052f2dcf4882c683ce87b4356f29b4d014c0dad645b6906baf9f0957
 django-reversion = ["1aeed0b723b5be14c4dc7e7c7e03f9538e7ef29c997585e2e8fb414cf38818f4", "ed46722389fb2441860d471c7538967dee545bcee891d3d907b04f4baa98f5fa"]
 django-split-settings = ["db4d24a2da2f17e0aa97437f052eda7d043a3e2eaa9c8a85a171271e0f91852b", "f5a5c6431ab00a78959f7930a79faaf488b2fe8a4eddc4297ef8cd593e74868d"]
 djangorestframework = ["05809fc66e1c997fd9a32ea5730d9f4ba28b109b9da71fccfa5ff241201fd0a4", "e782087823c47a26826ee5b6fa0c542968219263fb3976ec3c31edab23a4001f"]
-djangorestframework-serializer-extensions = ["c383f18bf38ee1277cc8cb738f4667b8b9b6bd9a2f98ca938f8ac8c703a68ae4", "f44c5592dfd1289af1bd6afb6ba9b2afe0881c5cd9c242e8e76f08a9fcab16cb"]
+djangorestframework-serializer-extensions = ["12beb9ba99718906dbd4303299b627143041dbe8f68fdf608e3b69510465d39b", "23f345e4a57788f6a18af2c106758b5d7ad9495f3d83d589697b2e97073cecb1"]
 djangorestframework-simplejwt = ["4cb1a51bf9b098b983e1326a1cfc65fb0b3c5a2aa0fa43effdbf05dd6da5e8cb", "d025211806622c53020aa4f66029f1f7305e38de6439116b4a842661fc02cf36"]
 hashids = ["6539b892a426e75747a9c0ad69409e9566f9c21b79310fc3424b5b6726f28da6"]
 ipython = ["190a279bd3d4fc585a611e9358a88f1048cc57fd688254a86f9461889ee152a6", "762d79a62b6aa96b04971e920543f558dfbeedc0468b899303c080c8068d4ac2"]
