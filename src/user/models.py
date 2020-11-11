@@ -1,12 +1,13 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
-__all__ = ['CustomUser']
-
 
 class CustomUser(AbstractUser):
     middle_name = models.CharField(
         verbose_name='Отчество', max_length=150, blank=True,
+    )
+    phone = models.CharField(
+        verbose_name='Телефон', max_length=12, blank=True,
     )
 
     def get_full_name(self):
